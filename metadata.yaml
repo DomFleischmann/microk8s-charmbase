@@ -1,0 +1,13 @@
+name: native-charm
+summary: Basic Native charm example
+maintainer: David Garcia <david.garcia@canonical.com>
+description: |
+  This is a basic native charm example,
+  which shows off how to
+  - Install apt packages
+  - Install snaps
+  - Execute actions
+tags:
+  - basic
+subordinate: false
+series: ['xenial', 'bionic']
